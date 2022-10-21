@@ -20,9 +20,9 @@ namespace WindowsFormsApp1
             buttonTeacher.Enabled = false;
             buttonGroup.Enabled = false;
             //Вырубить нижние строки для преподавателей
-            //buttonTeacher.Visible = false;
-            //comboTeacherList.Visible = false;
-            //labelTeacher.Visible = false;
+            buttonTeacher.Visible = false;
+            comboTeacherList.Visible = false;
+            labelTeacher.Visible = false;
         }
 
         //Скачать файл и обновить элементы интерфейса
@@ -229,7 +229,7 @@ namespace WindowsFormsApp1
                     comboGroupList.DisplayMember = "Value";
                     comboGroupList.ValueMember = "Key";
 
-                    buttonTeacher.Enabled = true;
+                    //buttonTeacher.Enabled = true;
                     buttonGroup.Enabled = true;                
                 }
                 else
